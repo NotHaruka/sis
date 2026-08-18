@@ -1,0 +1,112 @@
+SH1804
+07 Handout 1 *Property of STI
+Page 1 of 3
+DOM and Events (Part 1)
+I. What is DOM?
+ It is an acronym for the term Document Object Model.
+ It is a standard OOP model and programming interface of a JS-enabled web page’s logical
+structure.
+ It demonstrates how the elements of a web page are loaded into a browser window.
+ It is usually represented as a tree structure, where HTML elements become interrelated
+nodes. Certain elements can also have child nodes, meaning they govern certain elements
+within their own.
+A. The document Object
+ It is a predefined object in JS that can be used to access all elements in the DOM.
+ This basically means that the document object is the root (or owner) of ALL objects in
+the web page.
+ All elements, from the <HTML> tag pair down to the <BR> tags in a paragraph, can be
+accessed by the document object due to it being the parent object for all elements.
+ It is commonly used along with the innerHTML property, which can get or set content
+for HTML elements.
+II. Selecting Elements
+ All HTML elements are, by principle, objects in JS.
+ Since every object has properties and methods, the document object has methods that allow
+the selection of a desired HTML element.
+A. The getElementById() Method
+ This method is used to select the element with a given identifier, represented by the
+HTML element property id.
+ These identifiers are usually string values, particularly names that identify the element’s
+contents.
+ HTML elements are given id values so they can be called on by this method.
+SoloLearn
+
+-- 1 of 3 --
+
+SH1804
+07 Handout 1 *Property of STI
+Page 2 of 3
+B. The getElementsByClassName() Method
+ It is a method that finds all elements by the value of their class property and return them
+as an array.
+ Elements of a single class can be manipulated using their corresponding index value in
+the array.
+ HTML elements can be given the class property, which works similarly to the id
+property.
+C. The getElementsByTagName() Method
+ It works similarly to the getElementsByClass() method.
+ This method returns all elements of a specified tag property value as an array.
+ Actual element tag names are used as property values for this method (for example,
+getElementsByClass("LI") will refer to list tag <LI> in HTML).
+D. Working with DOM
+ Each element in the DOM has a set of properties and methods that can provide
+information about their relationships:
+o element.childNodes returns an array of an element's child nodes.
+o element.firstChild returns the first child node of an element.
+o element.lastChild returns the last child node of an element.
+o element.hasChildNodes returns true if an element has any child nodes, otherwise
+false.
+o element.nextSibling returns the next node at the same tree level.
+o element.previousSibling returns the previous node at the same tree level.
+o element.parentNode returns the parent node of an element.
+ This can allow for manipulation of web page elements across almost all levels via JS
+and DOM.
+III. Changing Elements
+A. Changing Attributes
+ Selected elements can have their attributes changed using the identifier for the object
+holding the element and their specific keyword in HTML.
+ Practically, all attributes of an element can be changed using JS.
+B. Changing Styles
+ Specific attributes of an HTML element can be changed using a specified “style” in JS.
+ Using the style object written as an attribute within an HTML element, certain visual
+and non-visual aspects (for example, height and width of a paragraph) of an element
+can be specified.
+ All CSS properties can be set and modified using JS.
+IV. Adding and Removing Elements
+A. Creating Elements
+ New element nodes can be created in the DOM through JS.
+ Various methods can be used for facilitate the creation of new nodes:
+o element.cloneNode() clones an element and returns the resulting node.
+o document.createElement() creates a new element node.
+o document.createTextNode() creates a new text node.
+
+-- 2 of 3 --
+
+SH1804
+07 Handout 1 *Property of STI
+Page 3 of 3
+o element.appendChild() adds a new child node to an element as the last child node.
+o element.insertBefore() inserts child nodes in the order in which they were declared.
+B. Removing Elements
+ This is an easier task than creating elements in the DOM.
+ It can be done by selecting the parent of the element and use the removeChild() method.
+C. Replacing Elements
+ Considered a shorter method compared to creating and removing elements repeatedly
+in JS.
+ Can be facilitated by using the replaceChild() method.
+V. Creating Animations
+ DOM elements can be selected and changed to create simple animations for HTML
+elements:
+o The setInterval() method allows the creation of a timer for calling a function that will
+change the properties of an element repeatedly at set intervals (in milliseconds).
+o The move() method allows the changing of positions of elements based on set
+conditions and functions.
+o The clearInterval() method is used to stop the setInterval() method based on given
+conditions; this is to prevent the setInterval() method from executing indefinitely.
+References:
+Sololearn.com. JavaScript Tutorial. Retrieved on April 17, 2018:
+https://www.sololearn.com/Course/JavaScript/
+Sololearn.com. jQuery Tutorial. Retrieved on April 17, 2018:
+https://www.sololearn.com/Course/jQuery/
+
+-- 3 of 3 --
+

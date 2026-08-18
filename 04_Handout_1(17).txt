@@ -1,0 +1,72 @@
+SH1804
+04 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 1 of 2
+Functions
+I. Defining Functions
+A. What is a function?
+ It is a block of code designed to perform a particular task.
+ It allows reusability of code; written code need only be defined once, and it can be used
+as many times as possible.
+ It also allows the usage of arguments to produce different kinds of results.
+ It is declared using the function keyword, followed by a specified name (it can be any
+valid variable name) followed by a set of parentheses (( )). The function’s code block
+is written in between a pair of curly braces ({ }).
+B. Calling Functions
+ These are methods in JS that allow the execution of a function’s code block.
+ Done using the function’s name, followed by any optional arguments within the
+following pair of parentheses.
+ JS allows a function to be called as many times as needed.
+II. Function Parameters
+ These are any variable names listed within a functions argument definition.
+ Defined parameters then become function arguments that can be used to hold or receive
+user-supplied or defined values for use within the function’s statements.
+III. Using Multiple Parameters
+ Functions can accommodate multiple parameters for multiple possible values.
+ Multiple parameters are defined within functions using their declared names and separated
+with commas (,).
+ Once parameters are declared, they can then be used within the function’s statements.
+IV. Function Value Return
+ Functions can have an optional return statement.
+ The return statement for functions work in the same way as return statements for methods.
+ Return statements are useful for returning results from functions that work with calculation
+and evaluation of values and/or expressions.
+ When JavaScript reaches a return statement, the function stops executing.
+V. Function Boxes
+ These are popup boxes that allow the display of different types of function output.
+ Specific function boxes may require specific data, such as supplied input values from a user,
+or confirmation for an executed task.
+A. The Alert Box
+ A function box used when a JS application must ensure that the user gets the information
+that is displayed.
+ The user must click a confirmative OK button in order to proceed.
+ It takes a single parameter: the text to be displayed within the function box.
+ To display line breaks within a popup box, use a backslash (\) followed by the
+lowercase character n.
+
+-- 1 of 2 --
+
+SH1804
+04 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 2 of 2
+B. The Prompt Box
+ A function box used to require a user to give values as input before entering a JS-enabled
+page or application.
+ When a prompt box pops up, the user will have to click either OK or Cancel to proceed
+after entering the input value.
+ If the user clicks OK, the box returns the input value. If the user clicks Cancel, the box
+returns null.
+ It takes two (2) parameters: the label which is the text displayed in the text box, and the
+string which becomes the default string value that is displayed within the text box.
+C. The Confirm Box
+ A function box used to have the user verify of accept something.
+ When the box pops up, the user must click either OK or Cancel to proceed.
+ The returned Boolean value depends on user choice: If the user clicks OK, the box
+returns true. If the user clicks Cancel, the box returns false.
+References:
+ SoloLearn. (n.d.) JavaScript Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/JavaScript/
+ SoloLearn. (n.d.) jQuery Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/jQuery/
+
+-- 2 of 2 --
+

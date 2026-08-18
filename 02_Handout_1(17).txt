@@ -1,0 +1,144 @@
+SH1804
+02 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 1 of 5
+JavaScript Basic Concepts
+I. Variables
+ These are containers or placeholders for holding and storing data values.
+ They serve as identifiers for the values they hold.
+ Their values can change throughout an application’s runtime.
+ Use the var keyword for its declaration.
+A. The Assignment Operator
+ A programming operator used to assign data, specifically values, to a declared variable.
+ Uses the equality operator or equal sign (=) for its declaration.
+ JS changes the operator’s purpose from determining equality of two (2) values to
+assignment of values.
+B. Using Variables
+ Variables can be used across any location in a script.
+ Any changes to a variable (such as its value) will be reflected to any location in the
+script that uses the variable.
+C. Naming Variables
+ Variables follow certain rules and conventions for their naming:
+o The first character MUST BE a letter, an underscore (_), or a dollar sign ($).
+Subsequent characters may be letters, digits, underscores, or dollar signs.
+o Numbers are NOT allowed as the first character for the identifier’s name.
+o Variable names CANNOT include a mathematical or logical operator in the name
+(for example, 2*something or this+that;).
+o Variable names MUST NOT contain spaces.
+o Hyphens are NOT allowed to be used in JS variables; the hyphen symbol (-) is
+reserved as the subtraction operator.
+o Variables MUST NOT have special symbols, such as the pound sign (#), the
+percent symbol (%), etc.
+o Variables MUST NOT use any reserved words as they have uses in other aspects
+of JS programming.
+SoloLearn
+
+-- 1 of 5 --
+
+SH1804
+02 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 2 of 5
+II. Data Types
+ Refers to types of values with which a program can work with.
+ Allows variables to hold different types of values in JS, such as numbers, strings, arrays,
+and more.
+A. Defining Numerical Variables
+ JS does not need to use specified keywords to denote a variable holding numerical
+values.
+ JS numerical values can therefore hold any numerical data type such as integers, short,
+long, floating-point, etc.
+B. Defining String Variables
+ Allows JS scripts to use alphanumeric values, more specifically text.
+ Variables containing strings are usually declared with quotes.
+ Developers can use single quotes (‘’) or double quotes (“”).
+ The backslash character (\) can be used for other special characters in order to turn
+them into string characters.
+C. Defining Boolean Variables
+ Boolean variables will only return one (1) of two (2) values: true or false.
+ These are useful when you need a data type that can only have one of two values, such
+as Yes/No, On/Off, True/False, etc.
+ This type of variable is defined normally, without quotations, similar to numerical
+values.
+SoloLearn
+
+-- 2 of 5 --
+
+SH1804
+02 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 3 of 5
+III. Math Operators
+ These are symbols used to perform arithmetic functions on numerical values, such as those
+on variables and literals.
+o The addition operator is denoted by the plus sign (+). It is used to add two (2) or more
+operands and return the resulting value.
+o The subtraction operator is denoted by the hyphen (-). It is primarily used to subtract
+the value of the second operand from the first operand.
+o The multiplication operator is denoted by the asterisk (*). It is used to multiply an
+operand with another.
+o The division operator is denoted by the forward slash symbol (/). It is used to perform
+division operations between two (2) or more operands.
+o The modulus operator is denoted by the percent symbol (%). It is used to return the
+remainder from a division operation of two operands.
+A. Increment and Decrement
+ The increment operator is denoted by two plus signs (++). It is used increase the
+numeric value of its operand by one (1). If placed before the operand, it returns the
+incremented value. If placed after the operand, it returns the original value and then
+increments the operand.
+ The decrement operator is denoted by two hyphens (--). It is used to decrease the
+numeric value of its operand by one (1). If placed before the operand, it returns the
+SoloLearn
+SoloLearn
+
+-- 3 of 5 --
+
+SH1804
+02 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 4 of 5
+decremented value. If placed after the operand, it returns the original value and then
+decrements the operand.
+IV. Assignment Operators
+ These are operators used to assign values to JS variables.
+ Some operators perform arithmetic operations on the value to be assigned; the resulting
+value is assigned on the first operand.
+V. Comparison Operators
+ These are operators used in logical statements, which determine equality or difference
+between given variables and/or values.
+ The can only return Boolean values: true or false.
+SoloLearn
+SoloLearn
+
+-- 4 of 5 --
+
+SH1804
+02 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 5 of 5
+VI. Logical Operators
+ Also known as Boolean operators.
+ They are used to evaluate an expression to determine a resulting Boolean value.
+ Returns the Boolean values true or false.
+A. The Ternary Operator
+ It is a type of logical operator that will assign a value to a variable based on a given
+condition.
+ It is basically a combination of the logical, assignment, and arithmetic operators.
+ It is denoted by the question mark and the colon symbol:
+o The question mark (?) serves as a separator between the assignment expression with
+the condition and the values to be assigned,
+o The colon (:) separates the two (2) values that will be assigned to the declared
+variable.
+ For the condition, logical operators allow for as many expressions as possible.
+VII. String Operators
+ Aside from quotation marks, JS can use the plus sign (+) to combine two or more string
+values; this process is commonly known as concatenation.
+ Concatenation is mostly useful for use in variables that hold string values to form more
+complex phrases, greetings, or other string value-based output.
+ Numbers within quotes are treated as string values; developers must then be able to
+determine whether to hold a numerical value as a string or an actual numerical value for JS
+variables.
+References:
+ SoloLearn. (n.d.) JavaScript Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/JavaScript/
+ SoloLearn. (n.d.) jQuery Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/jQuery/
+SoloLearn
+
+-- 5 of 5 --
+

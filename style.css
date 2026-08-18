@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background: #999;
+    padding: 20px;
+}
+
+.bigbox {
+    width: 700px;
+    margin: 0px auto;
+    background: white;
+    border: 1px solid #333;
+    border-radius: 20px;
+}
+
+.yellowtop {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+    background: yellow;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.form {
+    padding: 15px;
+    background: #fafafa;
+}
+
+.heading {
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    background: white;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.question label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.row {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 300px 300px;
+}
+
+.row.three {
+    grid-template-columns: 200px 200px 200px;
+}
+
+input, select {
+    border-radius: 8px;
+    padding: 6px;
+    border: 1px solid #666;
+    font-size: 11px;
+    font-family: Arial;
+    width: 80%;
+}
+
+.sendbutton, .deletebutton {
+    background: #0d4d90;
+    color: white;
+    border: 2px solid #0a3f78;
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.sendbutton {
+    width: 668px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.deletebutton {
+    padding: 3px 6px;
+    margin: 2px;
+    font-size: 10px;
+}
+
+table {
+    width: 668px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #333;
+}
+
+table td {
+    padding: 6px;
+    font-size: 12px;
+    border: 1px solid #333;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+}

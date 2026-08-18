@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bigbox">
+        <div class="yellowtop">
+            <img src="sti.png" alt="STI Logo" class="logo">
+        </div>
+        
+        <div class="form">
+            <form id="form">
+                <div class="heading">Student's Information</div>
+                <div class="question">
+                    <label>Student's Full name</label>
+                    <div class="row three">
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                        <input type="text" id="middleName" placeholder="Middle Name">
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>Student's ID / UIN</label>
+                    <input type="text" id="studentId" placeholder="Enter your student ID">
+                </div>
+                
+                <div class="question">
+                    <label>Date of Birth</label>
+                    <div class="row">
+                        <input type="text" id="month" placeholder="Month">
+                        <input type="text" id="date" placeholder="Date">
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>Address</label>
+                    <input type="text" id="address" placeholder="Full Address">
+                </div>
+                
+                <div class="question">
+                    <label>Contact Number</label>
+                    <input type="text" id="phone" placeholder="09XX-XXX-XXXX">
+                </div>
+                
+                <div class="question">
+                    <label>Email address</label>
+                    <input type="email" id="email" placeholder="student@email.com" required>
+                </div>
+                
+                <div class="question">
+                    <label>Program and Section</label>
+                    <div class="row">
+                        <input type="text" id="program" placeholder="Program">
+                        <input type="text" id="section" placeholder="Section">
+                    </div>
+                </div>
+                
+                <div class="heading">Guardian's Information</div>
+                
+                <div class="question">
+                    <label>Guardian's Full name</label>
+                    <div class="row three">
+                        <input type="text" id="guardianLastName" placeholder="Last Name">
+                        <input type="text" id="guardianFirstName" placeholder="First Name">
+                        <input type="text" id="guardianMiddleName" placeholder="Middle Name">
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <label>Guardian's Contact Number</label>
+                    <input type="text" id="guardianPhone" placeholder="09XX-XXX-XXXX">
+                </div>
+                
+                <div class="question">
+                    <label>Guardian's Relation to Student</label>
+                    <input type="text" id="relation" placeholder="e.g. Mother, Father, Uncle">
+                </div>
+                
+                <button type="submit" class="sendbutton">Submit</button>
+            </form>
+            
+            <h3 style="margin-top: 30px; color: #333;">List of Students</h3>
+            <table>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td><b>Email</b></td>
+                    <td><b>Action</b></td>
+                </tr>
+                <tbody id="list"></tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

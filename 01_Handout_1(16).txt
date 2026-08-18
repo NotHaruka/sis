@@ -1,0 +1,57 @@
+SH1804
+01 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 1 of 2
+Introduction to JavaScript
+I. What is JavaScript?
+ It is considered as one of the most popular programming languages today.
+ It is used for webpage functionality, such as interactivity, data processing, and development
+of purpose-built applications such as mobile and desktop apps, games, and more.
+II. Adding JavaScript to a Web Page
+A. Writing Scripts in the Heading
+ JS uses the <SCRIPT> tag pair.
+ JS scripts are usually written within the <HEAD> tag pair of an HTML document.
+B. Writing Scripts in the Document Body
+ Alternatively, developers can also write JS scripts within the <BODY> tag pair in an
+HTML document via the <SCRIPT> tag pair.
+ There is no difference between scripts written in the heading and scripts written in the
+document body.
+C. The <SCRIPT> Tag
+ An HTML tag pair used to implement JS scripts into HTML documents.
+ The tags denote that the code within is a JS script.
+ Can take on two (2) main attributes: type and language. They specify the script’s text
+type and the programming language, respectively.
+III. External JavaScript
+ Scripts that are written and placed in external files.
+ External files have the file extension .js for JavaScript.
+ HTML documents can call on these files to execute their script/s using the SRC attribute
+of the <SCRIPT> tag.
+ External JS files don’t use the <SCRIPT> tag pair as part of their code; developers can
+directly write their script code on the file as if it’s a normal text file.
+A. Advantages of External Scripting
+ Code Separation – It separates HTML and JS code completely by having the script
+code written in a separate file.
+ Code Maintenance – Due to being written in two (2) separate files, allows better
+readability and maintainability of both HTML and JS code.
+ Faster Page Loading – JS files are cached, speeding up loading times for web pages.
+IV. Comments in JavaScript
+ Code in JS that is not “executed”; they are ignored and do not have any effect on the web
+page.
+ They are used to describe and explain what the code is doing.
+ They are written after a double forward slash (//) or between pairs of asterisks and forward
+slashes (/* and */).
+ Single-line comments used double forward slashes, while the asterisk-forward slash pair is
+used for multi-line comments.
+
+-- 1 of 2 --
+
+SH1804
+01 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 2 of 2
+References:
+ SoloLearn. (n.d.) JavaScript Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/JavaScript/
+ SoloLearn. (n.d.) jQuery Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/jQuery/
+
+-- 2 of 2 --
+

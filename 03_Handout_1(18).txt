@@ -1,0 +1,87 @@
+SH1804
+03 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 1 of 2
+Conditionals and Loops
+I. The if Statement
+ A conditional statement that allows JS scripts and applications to perform different actions
+based given conditions.
+ A block of code will be executed based on the resulting value of an evaluated condition.
+ If the condition is not satisfied, the code block within the statement will be skipped and the
+script/application will continue with program execution after the statement.
+ Other variations of this conditional statement exist through the use of additional JS
+keywords and conditions.
+A. The if-else Statement
+ A more complex version of the if statement.
+ Uses the else keyword that allows the declaration of a code block for statements that
+will be executed if the condition returns a Boolean value of false.
+B. The if-else-if Statement
+ Yet another version of the if statement.
+ Uses the else-if statement (written as else if) that allows for multiple code blocks to be
+executed when their conditions are satisfied.
+ Any condition whose condition is not satisfied will be skipped.
+ If no preceding conditions were satisfied, the else statement at the end of the entire
+conditional statement will be executed instead.
+II. The switch Statement
+ An alternative conditional statement to the if-else-if statement, as if-else-if statements may
+be cumbersome and may not always be the best solution for conditional statements.
+ Allows the testing of multiple conditions through the use of case statements; each case
+statement contains a possible match to a condition value, usually derived from an evaluated
+expression (basically, a condition).
+ If a case statement matches the condition value, it then executes its code block.
+ If no match has been found for the listed cases, the default statement will be executed
+instead.
+ It is important to always put a break statement at the end of the code block for each case
+statement; forgetting to do so will execute ALL succeeding case statements after one is
+satisfied.
+III. The for Loop
+ One of many possible looping constructs in JS, which allow the execution of code for a set
+number of times, which is handy for running code that needs to be run repeatedly.
+ Is considered as the most commonly used loop.
+ Consists primarily of three (3) statements, each divided by a semicolon (;), for its condition
+block:
+1. The first statement contains any statements executed before the loop starts, such as
+declaration of relevant variables (usually counter variables).
+2. The second statement contains the actual condition or expression to be evaluated for the
+loop.
+3. The third statement contains any statements executed after the loop has been executed,
+such as incrementing or decrementing of relevant variables.
+
+-- 1 of 2 --
+
+SH1804
+03 Handout 1 *Property of STI
+ student.feedback@sti.edu Page 2 of 2
+ The loop’s code block will be executed a number of times based on the condition block’s
+values.
+IV. The while Loop
+ A loop that repeats a block of code as long as the condition returns a Boolean value of true.
+ The condition, however, can also be altered so that the loop repeats when the condition
+returns a value of false.
+ All while loops will return ONLY Boolean values.
+ Developers must never forget to increase the counter variable used in the condition so that
+it will eventually return a false value; forgetting to do so will result in an infinite loop.
+V. The do-while Loop
+ Considered as a variant of the while loop
+ This loop will execute the code block once, before checking if the condition is true, and
+then it will repeat the loop as long as the condition is true.
+VI. break and continue
+A. The break Statement
+ A statement used to break the execution of a code block, such as those in conditional
+statements and loops.
+ The script or application will continue with the execution of the rest of the code after
+breaking the execution of the code block containing the statement.
+ The break statement can also be used to interrupt the execution of a code block through
+the use of additional conditional statements.
+B. The continue Statement
+ A statement primarily used in loops.
+ It breaks a single iteration of a loop and continues with the next iteration.
+ This statement is useful whenever a certain value or iteration needs to be skipped in
+order to acquire more specific values and/or data.
+Reference:
+ SoloLearn. (n.d.) JavaScript Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/JavaScript/
+ SoloLearn. (n.d.) jQuery Tutorial. Retrieved on April 6, 2018 at
+https://www.sololearn.com/Course/jQuery/
+
+-- 2 of 2 --
+

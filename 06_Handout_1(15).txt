@@ -1,0 +1,67 @@
+SH1804
+06 Handout 1 *Property of STI
+Page 1 of 2
+Arrays
+I. What are Arrays?
+ It is a common programming mechanic known as a data structure.
+ It is the simplest data-storing structure in any programming language.
+ In JS, it allows scripts and applications to store multiple values in a single variable.
+A. Accessing Arrays
+ Array elements can be accessed by referring to their index number written in square
+brackets ([ ]).
+ Index numbers start with zero (0) instead of one (1); the first element of the array is
+designated with the index number of zero (0), while the last element is designated by
+the total array element value subtracted by one (1) (n – 1, where n stands for the total
+array element value).
+ Attempting to access an array element using an index number HIGHER than the
+maximum array element value will return the undefined value.
+II. Creating Arrays
+A. Specifying Array Properties
+ Arrays are considered a special type of object in JS.
+ During declaration, an array can be customized by also declaring the maximum number
+of elements it can contain.
+ Values for elements can also be added individually later; this is usually done by
+referring their element number and assigning the values individually.
+ Since JS arrays are also dynamic like JS variables, an array can also be declared without
+passing any arguments; this is done by not adding any specific argument within the
+Array constructor’s parentheses pair.
+ An array declared dynamically can also have their elements added dynamically; the
+syntax for adding individual element values is used.
+B. Array Literals
+ A method of array declaration that allows for greater simplicity, readability, and
+execution speed.
+ Uses a specific syntax for its declaration; the syntax involves the usage of simply the
+possible element values enclosed with a pair of square brackets ([ ]).
+ The array literal syntax is the recommended way to declare arrays, due to its simplicity
+and execution speed.
+III. Array Properties and Methods
+A. The length Property
+ One of JS’ built-in properties for declared array objects
+ It is used to return the total number of an array’s elements.
+B. Combining Arrays
+ Arrays can be combined through concatenation.
+ The concat() method can be used to join two (2) existing arrays to create a new one:
+
+-- 1 of 2 --
+
+SH1804
+06 Handout 1 *Property of STI
+Page 2 of 2
+1. The array that uses the concat() method as its object property will become the first
+array. The first array will be joined to the second array at its ending element value.
+2. The array that is declared as a parameter of the concat() method will become the
+second array. The second array is joined to the first array at its beginning element
+value.
+IV. Associative Arrays
+ JS, unlike other programming languages, does not support the creation of associative arrays
+(arrays with named indexes; indexes use text instead of numbers, such as variable names).
+ As an alternative, the named array syntax can be used, which produces an object; elements
+of the “array” object become properties of the object that can be referred.
+References:
+Sololearn.com. JavaScript Tutorial. Retrieved on April 17, 2018:
+https://www.sololearn.com/Course/JavaScript/
+Sololearn.com. jQuery Tutorial. Retrieved on April 17, 2018:
+https://www.sololearn.com/Course/jQuery/
+
+-- 2 of 2 --
+
