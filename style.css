@@ -18,22 +18,21 @@ body {
 }
 
 .yellowtop {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px 20px 0px 0px;
-    align-items: center;
+    position: relative;
     background: yellow;
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
     border-bottom: 1px solid #333;
+    height: 40px;
 }
 
 .logo {
+    position: absolute;
+    right: 10px;
+    top: 5px;
     width: 50px;
     height: auto;
-    display: block;
-    margin-left: auto;
 }
 
 .form {
@@ -62,13 +61,18 @@ body {
 }
 
 .row {
-    display: grid;
-    gap: 8px;
-    grid-template-columns: 300px 300px;
+    width: 100%;
+    overflow: hidden;
 }
 
-.row.three {
-    grid-template-columns: 200px 200px 200px;
+.row input {
+    float: left;
+    margin-right: 8px;
+    width: 300px;
+}
+
+.row.three input {
+    width: 200px;
 }
 
 input, select {
