@@ -2,13 +2,22 @@
     margin: 0;
     padding: 0;
 }
-
-body {
-    font-family: 'Poppins', Arial;
+body.form-page, .form-page {
+    font-family: 'Poppins', Arial, sans-serif;
     background-image: url('backgroundsti2.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    min-height: 1080px;
+}
+body.landing-page, .landing-page {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-image: url('backgroundsti.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 20px;
+    min-height: 1080px;
 }
 
 .bigbox {
