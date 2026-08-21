@@ -11,12 +11,22 @@ body {
 
 .bigbox {
     width: 700px;
-    margin: 0px auto;
+    margin: 1px auto;
+    background: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.studentListBox {
+    width: 700px;
     background: white;
     border: 1px solid #333;
     border-radius: 20px;
-}
-
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 .yellowtop {
     position: relative;
     background: yellow;
@@ -31,7 +41,7 @@ body {
     position: absolute;
     right: 10px;
     top: 5px;
-    width: 50px;
+    width: 80px; 
     height: auto;
 }
 
@@ -108,16 +118,21 @@ input, select {
 }
 
 table {
-    width: 668px;
+    width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
     border: 1px solid #333;
+    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS*/
+    table-layout: fixed;
 }
 
 table td {
     padding: 6px;
     font-size: 12px;
     border: 1px solid #333;
+    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS*/
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 h3 {
