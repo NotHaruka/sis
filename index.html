@@ -1,102 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Information Form</title>
+    <title>Welcome to our landing page!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap">
 </head>
+
 <body>
+    <!--SALUNGA wag mo hahawakan ang aking html-->
+    
+    <!---NAG REUSE LANG AKO CLASS-NAMES I AINT REDOING ALLAT-->
     <div class="bigbox">
         <div class="yellowtop">
             <img src="sti.png" alt="STI Logo" class="logo">
         </div>
-        
-        <div class="form">
-            <form id="form">
-                <div class="heading">Student's Information</div>
-                <div class="question">
-                    <label>Student's Full name</label>
-                    <div class="row three">
-                        <input type="text" id="lastName" placeholder="Last Name" required>
-                        <input type="text" id="firstName" placeholder="First Name" required>
-                        <input type="text" id="middleName" placeholder="Middle Name">
-                    </div>
-                </div>
-                
-                <div class="question">
-                    <label>Student's ID / UIN</label>
-                    <input type="text" id="studentId" placeholder="Enter your student ID">
-                </div>
-                
-                <div class="question">
-                    <label>Date of Birth</label>
-                    <div class="row">
-                        <input type="text" id="month" placeholder="Month">
-                        <input type="text" id="date" placeholder="Date">
-                    </div>
-                </div>
-                
-                <div class="question">
-                    <label>Address</label>
-                    <input type="text" id="address" placeholder="Full Address">
-                </div>
-                
-                <div class="question">
-                    <label>Contact Number</label>
-                    <input type="text" id="phone" placeholder="09XX-XXX-XXXX">
-                </div>
-                
-                <div class="question">
-                    <label>Email address</label>
-                    <input type="email" id="email" placeholder="student@email.com" required>
-                </div>
-                
-                <div class="question">
-                    <label>Program and Section</label>
-                    <div class="row">
-                        <input type="text" id="program" placeholder="Program">
-                        <input type="text" id="section" placeholder="Section">
-                    </div>
-                </div>
-                
-                <div class="heading">Guardian's Information</div>
-                
-                <div class="question">
-                    <label>Guardian's Full name</label>
-                    <div class="row three">
-                        <input type="text" id="guardianLastName" placeholder="Last Name">
-                        <input type="text" id="guardianFirstName" placeholder="First Name">
-                        <input type="text" id="guardianMiddleName" placeholder="Middle Name">
-                    </div>
-                </div>
-                
-                <div class="question">
-                    <label>Guardian's Contact Number</label>
-                    <input type="text" id="guardianPhone" placeholder="09XX-XXX-XXXX">
-                </div>
-                
-                <div class="question">
-                    <label>Guardian's Relation to Student</label>
-                    <input type="text" id="relation" placeholder="e.g. Mother, Father, Uncle">
-                </div>
-                
-                <button type="submit" class="sendbutton">Submit</button>
 
-                <h3 style="margin-top: 30px; color: #333; font-size:15px;">List of Students</h3>
-            
-            <table id="list">
-                <tr>
-                    <td><b>Student Name</b></td>
-                    <td><b>Email Address</b></td>
-                    <td><b>Student ID</b></td>
-                    <td><b>Program/Section</b></td>
-                    <td><b>Contact Number</b></td>
-                    <td><b>Address</b></td>
-                    <td><b>Date of Birth</b></td>
-                </tr>
-            </table>
-            </form>
+        <div class="form">
+            <div class="heading">STI COLLEGE</div>
+
+            <div class="question">
+                <p><b>STUDENT INFORMATION SYSTEM FOR COMPROG 5</b></p>
+            </div>
+
+            <div class="question">
+                <label>FRONT-END: Clarence John Macajelos</label>
+            </div>
+
+            <div class="question">
+                <label>BACK-END: Dwyane Nazarene Salunga</label>
+            </div>
+
+            <div class="question">
+                <label>FIGMA DESIGN: Joanna Ericka Orapa & Isiah Andrei Borromeo</label>
+            </div>
+
+            <div class="question">
+                <label>DOCUMENTATION: Joanna Ericka Orapa</label>
+            </div>
+
+            <a href="form.html" class="sendbutton">Enter Site</a>
         </div>
     </div>
-    <script src="script.js"></script>
+
+    <footer>
+        © 2026 Future Minimum Wage Workers
+    </footer>
 </body>
 </html>

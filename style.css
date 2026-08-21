@@ -3,37 +3,25 @@
     padding: 0;
 }
 
-body {git 
-    font-family: Arial;
-    background: #999;
+body {
+    font-family: 'Poppins', Arial;
+    background-image: url('backgroundsti2.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 20px;
 }
 
 .bigbox {
     width: 700px;
-    margin: 1px auto;
-    background: white;
-    border: 1px solid #333;
-    border-radius: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.studentListBox {
-    width: 700px;
-    background: white;
-    border: 1px solid #333;
-    border-radius: 20px;
-    padding: 10px;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-} 
 .yellowtop {
     position: relative;
     background: yellow;
     padding: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid #333;
     height: 40px;
 }
 
@@ -41,22 +29,19 @@ body {git
     position: absolute;
     right: 10px;
     top: 5px;
-    width: 80px; 
-    height: auto;
+    width: 80px;
 }
 
 .form {
-    padding: 15px;
-    background: #fafafa;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* PARA SEMI TRANSPARENT YUNG BG, SO AMAZING*/
 }
 
 .heading {
-    border-radius: 20px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
-    background: white;
 }
 
 .question {
@@ -85,30 +70,35 @@ body {git
     width: 200px;
 }
 
-input, select {
+input {
     border-radius: 8px;
     padding: 6px;
     border: 1px solid #666;
     font-size: 11px;
     font-family: Arial;
     width: 80%;
+    box-sizing: border-box;
 }
 
 .sendbutton, .deletebutton {
-    background: #0d4d90;
+    display: inline-block;
+    background: #005EB8;
     color: white;
-    border: 2px solid #0a3f78;
-    border-radius: 0px;
+    border: none;
+    border-radius: 30px;
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 20px;
 }
 
 .sendbutton {
-    width: 668px;
+    display: block;
+    width: 100%;
     padding: 10px;
     margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 .deletebutton {
@@ -122,20 +112,19 @@ table {
     margin-top: 20px;
     border-collapse: collapse;
     border: 1px solid #333;
-    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS*/
+    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS, KASALANAN MO 'TO SALUNGA*/
     table-layout: fixed;
 }
 
-table td {
+table th, table td {
     padding: 6px;
     font-size: 12px;
     border: 1px solid #333;
-    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS*/
+    /* PARA HINDI LUMABAS SA LOOB NG TABLE YUNG MGA TEXTS, KASALANAN MO 'TO SALUNGA*/
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 
-h3 {
-    font-size: 13px;
-    font-weight: bold;
+footer {
+    text-align: center;
 }
