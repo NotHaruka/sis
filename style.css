@@ -137,3 +137,7 @@ table th, table td {
 footer {
     text-align: center;
 }
+
+.subjName {
+    font-weight: bold;
+}
